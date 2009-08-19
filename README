@@ -1,0 +1,36 @@
+Codaset Dialog : A sexy, ajax only jQuery dialog window.
+Original implementation: http://codaset.com/joelmoss/codaset-dialog/
+With thanks to http://fancybox.net/ for the sexy CSS.
+
+Copyright (c) 2009 Joel Moss & Codaset.com
+Licensed under the MIT licenses.
+
+
+
+Codaset Dialog is a sexy, ajax only jQuery dialog window.
+==============================================================================================
+
+It was built with one purpose, and one purpose only, and that is to allow the user to open up
+a page via ajax in a great looking dialog window. It's not a slideshow or a thickbox clone,
+and it doesn't solve global warming. It's simply a great way to open up a new page without the
+need for a brand new page reload.
+
+
+
+Implementation...
+==============================================================================================
+
+Reference the JS and CSS in the head of your HTML, not forgetting you need jQuery too. Then all
+you need to do is add a new class name to any link that you want opening up in a dialog. Just
+like this:
+
+    <a href="http://codaset.com/joelmoss/codaset-dialog" class="dialog">ooohh, look at this ma!</a>
+    
+Any link with the class name of "dialog", will open that location within the dialog window upon
+click. That is it! You don't even need to specify the dialog size, as the plugin will figure that
+out for you. All you gotta do is use good HTML markup.
+
+
+
+To see the Codaset Dialog in action, head on over to http://codaset.com/joelmoss/codaset-dialog/source
+and click the "download" button at the top right of the page.

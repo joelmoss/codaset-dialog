@@ -11,31 +11,31 @@ div#dialog_overlay{position:fixed;top:0;left:0;width:100%;height:100%;background
 * html div#dialog_overlay{position:absolute;height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
 div#dialog_wrap{text-align:left;}
 div#dialog_loading{position:absolute;height:100px;width:100px;cursor:pointer;display:none;overflow:hidden;background:transparent;z-index:100;}
-div#dialog_loading div{position:absolute;top:0;left:0;width:100px;height:100px;background:transparent url('/images/dialog/dialog_loading.gif') no-repeat;}
+div#dialog_loading div{position:absolute;top:0;left:0;width:100px;height:100px;background:transparent url('images/dialog_loading.gif') no-repeat;}
 div#dialog_loading_overlay{position:absolute;background-color:#FFF;z-index:30;}
 div#dialog_outer{position:absolute;top:0;left:0;z-index:90;padding:18px 18px 33px 18px;margin:0;width:0;height:0;overflow:hidden;background:transparent;display:none;}
 div#dialog_inner{position:relative;width:100%;height:100%;border:1px solid #BBB;background:#FFF;}
 div#dialog_content{margin:0;z-index:100;padding:20px;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;}
 div#dialog_div{background:#000;color:#FFF;height:100%;width:100%;z-index:100;}
 img#dialog_img{position:absolute;top:0;left:0;border:0;padding:0;margin:0;z-index:100;width:100%;height:100%;}
-div#dialog_close{position:absolute;top:-12px;right:-15px;height:30px;width:30px;background:url('/images/dialog/dialog_closebox.png') top left no-repeat;cursor:pointer;z-index:181;display:none;}
+div#dialog_close{position:absolute;top:-12px;right:-15px;height:30px;width:30px;background:url('images/dialog_closebox.png') top left no-repeat;cursor:pointer;z-index:181;display:none;}
 #dialog_frame{position:relative;width:100%;height:100%;display:none;}
 #dialog_ajax{width:100%;height:100%;overflow:auto;}
 .dialog_bigIframe{position:absolute;top:0;left:0;width:100%;height:100%;background:transparent;}
 div#dialog_bg{position:absolute;top:0;left:0;width:100%;height:100%;z-index:70;border:0;padding:0;margin:0;}
 div#dialog_bg div{position:absolute;display:block;z-index:70;border:0;padding:0;margin:0;}
-div#dialog_bg_n{top:-18px;width:100%;height:18px;background:transparent url('/images/dialog/dialog_shadow_n.png') repeat-x;}
-div#dialog_bg_ne{top:-18px;right:-13px;width:13px;height:18px;background:transparent url('/images/dialog/dialog_shadow_ne.png') no-repeat;}
-div#dialog_bg_e{right:-13px;height:100%;width:13px;background:transparent url('/images/dialog/dialog_shadow_e.png') repeat-y;}
-div#dialog_bg_se{bottom:-18px;right:-13px;width:13px;height:18px;background:transparent url('/images/dialog/dialog_shadow_se.png') no-repeat;}
-div#dialog_bg_s{bottom:-18px;width:100%;height:18px;background:transparent url('/images/dialog/dialog_shadow_s.png') repeat-x;}
-div#dialog_bg_sw{bottom:-18px;left:-13px;width:13px;height:18px;background:transparent url('/images/dialog/dialog_shadow_sw.png') no-repeat;}
-div#dialog_bg_w{left:-13px;height:100%;width:13px;background:transparent url('/images/dialog/dialog_shadow_w.png') repeat-y;}
-div#dialog_bg_nw{top:-18px;left:-13px;width:13px;height:18px;background:transparent url('/images/dialog/dialog_shadow_nw.png') no-repeat;}
+div#dialog_bg_n{top:-18px;width:100%;height:18px;background:transparent url('images/dialog_shadow_n.png') repeat-x;}
+div#dialog_bg_ne{top:-18px;right:-13px;width:13px;height:18px;background:transparent url('images/dialog_shadow_ne.png') no-repeat;}
+div#dialog_bg_e{right:-13px;height:100%;width:13px;background:transparent url('images/dialog_shadow_e.png') repeat-y;}
+div#dialog_bg_se{bottom:-18px;right:-13px;width:13px;height:18px;background:transparent url('images/dialog_shadow_se.png') no-repeat;}
+div#dialog_bg_s{bottom:-18px;width:100%;height:18px;background:transparent url('images/dialog_shadow_s.png') repeat-x;}
+div#dialog_bg_sw{bottom:-18px;left:-13px;width:13px;height:18px;background:transparent url('images/dialog_shadow_sw.png') no-repeat;}
+div#dialog_bg_w{left:-13px;height:100%;width:13px;background:transparent url('images/dialog_shadow_w.png') repeat-y;}
+div#dialog_bg_nw{top:-18px;left:-13px;width:13px;height:18px;background:transparent url('images/dialog_shadow_nw.png') no-repeat;}
 div#dialog_title{position:absolute;bottom:-33px;left:0;z-index:100;display:none;}
 div#dialog_title div{color:#FFF;font:bold 12px Arial;padding-bottom:3px;}
 div#dialog_title table{margin:0 auto;}
 div#dialog_title table td{padding:0;vertical-align:middle;}
-td#dialog_title_left{height:32px;width:15px;background:transparent url(/images/dialog/dialog_title_left.png) repeat-x;}
-td#dialog_title_main{height:32px;background:transparent url(/images/dialog/dialog_title_main.png) repeat-x;}
-td#dialog_title_right{height:32px;width:15px;background:transparent url(/images/dialog/dialog_title_right.png) repeat-x;}
+td#dialog_title_left{height:32px;width:15px;background:transparent url(images/dialog_title_left.png) repeat-x;}
+td#dialog_title_main{height:32px;background:transparent url(images/dialog_title_main.png) repeat-x;}
+td#dialog_title_right{height:32px;width:15px;background:transparent url(images/dialog_title_right.png) repeat-x;}

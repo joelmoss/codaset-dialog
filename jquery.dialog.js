@@ -161,9 +161,31 @@
   			});
 			});
       $('#dialog_overlay').fadeOut('fast');
-    },
+    }
     
   };
+  
+  $.fn.extend({
+    center: function(animate) {
+      this.css({position: 'fixed', zIndex: 999});
+      var offLeft = Math.floor(($(window).width()-this.width())/2),
+          offTop = Math.floor(($(window).height()-this.height())/2),
+          css = {
+            top: ((offTop != null && offTop > 0) ? offTop : '0')+ 'px',
+            left: ((offLeft != null && offLeft > 0) ? offLeft :'0') + 'px'
+          };
+      
+      if (animate) {
+        this.animate(css, {
+          easing: 'easeInOutQuad'
+        });
+      } else {
+        this.css(css);
+      }
+      
+      return this;
+    }
+  });
   
   $(document).ready(function() {
     $.dialog.init();
